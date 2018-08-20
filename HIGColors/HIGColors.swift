@@ -60,7 +60,7 @@ extension HIGColors: RawRepresentable {
 
 // MARK: - Convenience extensions
 
-extension Color {
+public extension Color {
 
 	/// Convenience init that defaults alpha to 1 if not provided
 	public convenience init(red: CGFloat, green: CGFloat, blue: CGFloat) {
@@ -78,7 +78,7 @@ extension Color {
 }
 
 /// CGColor values for easy use
-extension CGColor {
+public extension CGColor {
 	public static var higRed:      CGColor { return HIGColors.red.rawValue.cgColor }
 	public static var higOrange:   CGColor { return HIGColors.orange.rawValue.cgColor }
 	public static var higYellow:   CGColor { return HIGColors.yellow.rawValue.cgColor }
