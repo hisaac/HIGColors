@@ -35,6 +35,11 @@
 		4A43A920212B35DB00FBDB0C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = HIGColors/Info.plist; sourceTree = SOURCE_ROOT; };
 		4A43A923212B360900FBDB0C /* HIGColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HIGColors.swift; path = HIGColors/HIGColors.swift; sourceTree = SOURCE_ROOT; };
 		4A43A936212B375800FBDB0C /* HIGColors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = HIGColors.xcassets; path = HIGColors/HIGColors.xcassets; sourceTree = SOURCE_ROOT; };
+		4A4CD53A212B3CDE0077E82E /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		4A4CD53B212B3CDE0077E82E /* changelog.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = changelog.md; sourceTree = "<group>"; };
+		4A4CD53C212B3CDE0077E82E /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
+		4A4CD53D212B3CDE0077E82E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		4A4CD53E212B3CDE0077E82E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +85,11 @@
 		4A43A8D7212B339500FBDB0C = {
 			isa = PBXGroup;
 			children = (
+				4A4CD53E212B3CDE0077E82E /* README.md */,
+				4A4CD53B212B3CDE0077E82E /* changelog.md */,
+				4A4CD53A212B3CDE0077E82E /* LICENSE */,
+				4A4CD53C212B3CDE0077E82E /* .swiftlint.yml */,
+				4A4CD53D212B3CDE0077E82E /* .gitignore */,
 				4A43A90C212B34EB00FBDB0C /* HIGColors */,
 				4A43A918212B350A00FBDB0C /* HIGColorsTests */,
 				4A43A8E4212B34C600FBDB0C /* Products */,
