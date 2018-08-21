@@ -123,8 +123,8 @@
 		4A43A918212B350A00FBDB0C /* HIGColorsTests */ = {
 			isa = PBXGroup;
 			children = (
-				4A43A919212B350A00FBDB0C /* HIGColorsTests.swift */,
 				4A43A91B212B350A00FBDB0C /* Info.plist */,
+				4A43A919212B350A00FBDB0C /* HIGColorsTests.swift */,
 			);
 			path = HIGColorsTests;
 			sourceTree = "<group>";

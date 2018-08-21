@@ -1,7 +1,7 @@
 // Created by Isaac Halvorson on 8/20/18
 
-import XCTest
 import HIGColors
+import XCTest
 
 // If on iOS, tvOS, or watchOS, import UIKit and set the `Color` typealias to UIColor
 #if canImport(UIKit)
