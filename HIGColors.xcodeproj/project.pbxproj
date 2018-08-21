@@ -178,6 +178,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A43A8E9212B34C600FBDB0C /* Build configuration list for PBXNativeTarget "HIGColors_iOS" */;
 			buildPhases = (
+				4A948DAC212C4370008D6820 /* [Swiftlint] */,
 				4A43A8DE212B34C600FBDB0C /* Headers */,
 				4A43A8DF212B34C600FBDB0C /* Sources */,
 				4A43A8E0212B34C600FBDB0C /* Frameworks */,
@@ -196,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A43A8F6212B34D300FBDB0C /* Build configuration list for PBXNativeTarget "HIGColors_watchOS" */;
 			buildPhases = (
+				4A948DAD212C4385008D6820 /* [Swiftlint] */,
 				4A43A8EC212B34D300FBDB0C /* Headers */,
 				4A43A8ED212B34D300FBDB0C /* Sources */,
 				4A43A8EE212B34D300FBDB0C /* Frameworks */,
@@ -214,6 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A43A903212B34DE00FBDB0C /* Build configuration list for PBXNativeTarget "HIGColors_tvOS" */;
 			buildPhases = (
+				4A948DAE212C4396008D6820 /* [Swiftlint] */,
 				4A43A8F9212B34DE00FBDB0C /* Headers */,
 				4A43A8FA212B34DE00FBDB0C /* Sources */,
 				4A43A8FB212B34DE00FBDB0C /* Frameworks */,
@@ -232,6 +235,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A43A910212B34EC00FBDB0C /* Build configuration list for PBXNativeTarget "HIGColors_macOS" */;
 			buildPhases = (
+				4A948DAF212C43A6008D6820 /* [Swiftlint] */,
 				4A43A906212B34EB00FBDB0C /* Headers */,
 				4A43A907212B34EB00FBDB0C /* Sources */,
 				4A43A908212B34EB00FBDB0C /* Frameworks */,
@@ -250,6 +254,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A43A91C212B350A00FBDB0C /* Build configuration list for PBXNativeTarget "HIGColorsTests" */;
 			buildPhases = (
+				4A948DB0212C43C7008D6820 /* [Swiftlint] */,
 				4A43A913212B350A00FBDB0C /* Sources */,
 				4A43A914212B350A00FBDB0C /* Frameworks */,
 				4A43A915212B350A00FBDB0C /* Resources */,
@@ -356,6 +361,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A948DAC212C4370008D6820 /* [Swiftlint] */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[Swiftlint]";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		4A948DAD212C4385008D6820 /* [Swiftlint] */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[Swiftlint]";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		4A948DAE212C4396008D6820 /* [Swiftlint] */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[Swiftlint]";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		4A948DAF212C43A6008D6820 /* [Swiftlint] */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[Swiftlint]";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		4A948DB0212C43C7008D6820 /* [Swiftlint] */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[Swiftlint]";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4A43A8DF212B34C600FBDB0C /* Sources */ = {

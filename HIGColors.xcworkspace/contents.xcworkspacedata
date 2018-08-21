@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Example.playground">
+      location = "group:/Users/hisaac/code/mine/HIGColors/HIGColors.playground">
    </FileRef>
    <FileRef
       location = "container:HIGColors.xcodeproj">
